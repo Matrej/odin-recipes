@@ -1,10 +1,16 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background:transparent url(https://static8.depositphotos.com/1298561/974/v/950/depositphotos_9747631-stock-illustration-seamless-food-pattern.jpg);
+    background-size: 500px;
+}
 main {
+    background-color: rgba(255, 255, 255, 0.95);
     max-width: 80%;
     min-width: 500px;
     margin: 0 auto;
+    padding: 5%;
 }
 
 h1 {
@@ -36,7 +42,11 @@ img {
     height: 250px;
     object-fit: cover;
 }
-.ingredients {
+.ingredients li {
     background-color: blanchedalmond;
-    padding: 15px 50px;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+.steps {
+    font-style: italic;
 }
